@@ -31,6 +31,12 @@ mapKey("<leader>rn", "<cmd>Lspsaga rename<CR>")
 -- neogit
 mapKey("<leader>gg", "<cmd>Neogit<CR>") -- open neogit
 
+-- telescope
+mapKey("<leader>ff", "<cmd>Telescope find_files<CR>")
+mapKey("<leader>fg", "<cmd>Telescope live_grep<CR>")
+mapKey("<leader>fb", "<cmd>Telescope buffers<CR>")
+mapKey("<leader>fh", "<cmd>Telescope help_tags<CR>")
+
 --
 
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })

@@ -1,5 +1,3 @@
-local keyMapper = require("utils.keyMapper").mapKey
-
 return {
 	{
 		"mason-org/mason.nvim",
